@@ -16,6 +16,7 @@ lahaina-sagami-pdx214_generic-overlay.dtbo-base := ../qcom/lahaina.dtb ../qcom/l
 else
 lahaina-sagami-pdx214_generic-crossflash-overlay.dtbo-base := ../qcom/lahaina.dtb ../qcom/lahaina-v2.dtb ../qcom/lahaina-v2.1.dtb
 endif
+
 ifeq ($(CONFIG_MACH_SONY_PDX215),y)
 lahaina-sagami-pdx215_generic-overlay.dtbo-base := ../qcom/lahaina.dtb ../qcom/lahaina-v2.dtb ../qcom/lahaina-v2.1.dtb
 else
