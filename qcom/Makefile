@@ -90,7 +90,8 @@ dtb-$(CONFIG_ARCH_LAHAINA) += lahaina-rumi.dtb \
 	lahaina-v2.1-cdp-hsp-pro.dts \
 	lahaina-v2.1-qrd-hsp-pro.dts
 endif
-
+endif
+endif
 
 always		:= $(dtb-y)
 subdir-y	:= $(dts-dirs)
